@@ -4,8 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        #lists{
+            
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+         list-style-type: none;
+         gap: 4px;
+        }
+        .left{
+     align-self: flex-start;
+     background-color: azure;
+  
+        }
+        .right{
+ align-self: end;
+ background-color: azure;
+ 
+        }
+    </style>
 </head>
 <body>
+
+    <input type="text" onkeypress="inputMssg(event)" >
+    <ul id="lists"></ul>
     
+    
+
+    <script src="index.js"></script>
 </body>
 </html>
