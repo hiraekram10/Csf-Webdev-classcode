@@ -1,0 +1,124 @@
+/* .parent{
+    background-color: antiquewhite;
+    width: 400px;
+    height: 400px;
+     position: relative;
+    top: 20px;
+    right:40px; 
+    position:absolute;
+     top: 20px; 
+     right:0px; 
+    bottom:0px;
+    left:0px
+}
+
+.parent2{
+    background-color: rgb(255, 0, 0);
+    width: 400px;
+    height: 400px;
+} */
+
+
+/* .parent{
+    background-color: antiquewhite;
+    width: 800px;
+    height: 700px;
+   position: relative;
+
+}
+
+*/
+
+/* .child{
+    background-color: rgb(255, 0, 0);
+    width: 100px;
+    height: 100px;
+      
+  position: fixed;
+  right:10px;
+  bottom: 10px;
+    
+} 
+.child img{
+width: 100px;
+
+} */
+
+/* 
+
+.parent{
+ background: #9b2a2a;
+background: radial-gradient(circle, rgba(155, 42, 42, 1) 24%, rgba(42, 123, 155, 1) 47%, rgba(87, 199, 133, 1) 80%, rgba(120, 106, 211, 1) 91%, rgba(237, 221, 83, 1) 100%);
+    width: 400px;
+    height: 400px;
+     position: absolute;
+     z-index:3000 ;
+
+   
+}
+
+
+.parent2{
+    background-color: rgb(215, 250, 242);
+    width: 400px;
+    height: 400px;
+     position: absolute;
+     top: 40px;
+     z-index: 1000;
+    
+}
+p{
+    z-index: 2000;
+    position: relative;
+} */
+
+
+.parent {
+    border: 1px solid red;
+    /* width: 800px; */
+    height: 600px;
+    display: flex;
+    /* flex-direction: column-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around ;
+    align-items: flex-start;
+    align-content: space-between; */
+    gap: 20px;
+    align-items: flex-start;
+   
+}
+
+.item{
+  /* width: 150px;
+  height: 200px; */
+}
+
+.one{
+background-color: blue;
+/* order: -3; */
+flex-grow: 100;
+flex-shrink:1
+}
+.two{
+background-color: rgb(17, 255, 0);
+flex-grow: 300;
+flex-shrink:1;
+align-self: flex-end;
+
+
+
+}
+.three{
+background-color: rgb(255, 230, 0);
+/* order: -2; */
+flex-grow: 100;
+flex-shrink:2
+}
+.four{
+background-color: rgb(251, 0, 255);
+box-shadow: -2px -2px 3px black;
+/* order: -1; */
+flex-grow: 100;
+flex-shrink:1
+ 
+}

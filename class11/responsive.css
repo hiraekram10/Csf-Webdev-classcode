@@ -1,0 +1,10 @@
+/* @media  (orientation: portrait) {
+    .box{
+        background-color: rgb(166, 255, 0);
+    }
+} */
+@media screen and (width >= 400px) {
+    .box{
+        background-color: red;
+    }
+} 

@@ -1,0 +1,128 @@
+
+
+/* .box{
+    background-color: green;
+    width: 500px;
+    height: 500px;
+} */
+/* 
+@media  (orientation: portrait) {
+    .box{
+        background-color: rgb(166, 255, 0);
+    }
+}
+@media screen and (width >= 400px) {
+    .box{
+        background-color: red;
+    }
+}  */
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+}
+
+.web{
+    background-color: aqua;
+    width: 100%;
+}
+.nav{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    /* position: fixed;
+   top: 0px; */
+
+}
+.logo{
+   flex-grow: 1;
+   /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu{
+ flex-grow: 2;
+ /* background-color: rgb(34, 94, 74); */
+ display: flex;
+ align-items: center;
+}
+.search{
+    flex-grow: 2;
+    /* background-color: rgb(255, 240, 127); */
+     display: flex;
+ align-items: center;
+    
+}
+.search  input {
+  width: 90%;
+  height: 40px;
+  border: none;
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  padding-left: 30px;
+}
+.search input::placeholder{
+
+}
+.search img{
+    position: absolute;
+    width: 20px;
+}
+.icons{
+flex-grow: 1;
+/* background-color: rgb(255, 161, 127); */
+     display: flex;
+ align-items: center;
+ gap: 20px;
+}
+
+
+.menu > ul {
+    display: flex;
+    list-style: none;
+    /* background-color: blueviolet; */
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+}
+ul li {
+    font-size: 1.2rem;
+}
+.mob-view{
+  display: none;
+}
+
+
+
+
+
+
+@media screen and (width <= 500px) {
+  .nav{
+    display: none;
+  }
+  .mob-view{
+    background-color: rgb(255, 253, 250);
+    padding-left: 5px;
+     padding-right: 5px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mob-logo{
+   
+  }
+  .mob-logo img{
+    width: 100px;
+  }
+  .mob-icons{
+
+  }
+
+} 

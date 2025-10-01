@@ -1,0 +1,32 @@
+/* *{
+   background-color: blue;
+} */
+
+
+/* h1, p{
+    color: aquamarine;
+} */
+
+
+/* .text{
+    color:green ;
+} */
+
+/* #one{
+    background-color: yellow;
+} */
+
+
+ul > li {
+    color: bisque;
+}
+
+ol  a{
+    color: rgb                     (21, 145, 15, 0.788);
+}
+.third+p{
+    background-color: aquamarine;
+}
+.third~p{
+    background-color: aquamarine;
+}

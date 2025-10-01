@@ -1,0 +1,12 @@
+/* .card:hover{
+  width: 300px !important;
+} */
+
+.myCard:hover{
+width: 300px !important
+}
+
+.hero{
+    background-color: #cd1515;
+    height: 80vh;
+}
