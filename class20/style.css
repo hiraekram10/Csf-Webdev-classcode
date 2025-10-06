@@ -1,0 +1,15 @@
+#box{
+   
+    width: 100%;
+    height: 80vh;
+}
+
+.light{
+    background-color: aliceblue;
+    color: black;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
